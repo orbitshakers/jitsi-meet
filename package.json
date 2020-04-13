@@ -4,7 +4,7 @@
   "description": "A sample app for the Jitsi Videobridge",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jitsi/jitsi-meet"
+    "url": "git://github.com/jitsi/jitsi-meet.git"
   },
   "keywords": [
     "jingle",
@@ -13,7 +13,6 @@
     "browser"
   ],
   "author": "",
-  "readmeFilename": "README.md",
   "dependencies": {
     "@atlaskit/button": "10.1.1",
     "@atlaskit/checkbox": "5.0.10",
@@ -87,7 +86,7 @@
     "react-transition-group": "2.4.0",
     "redux": "4.0.4",
     "redux-thunk": "2.2.0",
-    "rnnoise-wasm": "github:jitsi/rnnoise-wasm.git#db96d11f175a22ef56c7db1ba9550835b716e615",
+    "rnnoise-wasm": "github:jitsi/rnnoise-wasm#db96d11f175a22ef56c7db1ba9550835b716e615",
     "styled-components": "3.4.9",
     "util": "0.12.1",
     "uuid": "3.1.0",
@@ -147,5 +146,13 @@
   ],
   "browser": {
     "jQuery-Impromptu": "jQuery-Impromptu/src/jquery-impromptu.js"
+  },
+  "bugs": {
+    "url": "https://github.com/jitsi/jitsi-meet/issues"
+  },
+  "homepage": "https://github.com/jitsi/jitsi-meet#readme",
+  "main": ".eslintrc.js",
+  "directories": {
+    "doc": "doc"
   }
 }
